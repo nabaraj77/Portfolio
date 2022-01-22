@@ -85,10 +85,44 @@ p{
     background-color: green;
     text-align: center;
     font-weight: bold;
+    clear: both;
 }
 address{
     background-color: burlywood;
     color: white;
     font-size: 1.1rem;
 
+}
+
+/* ABOUT ME*/
+.aboutMe{
+    box-sizing: border-box;
+    max-width: 97vw;
+    margin-left: 1vw;
+    background-color: wheat;
+    
+    
+}
+.aboutMeImage{
+    height: 15em;
+    width: 15em;
+    margin-left: 10%;
+    
+}
+h3{
+    color: red;
+}
+.intro{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.des{
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 20px;
+    word-break: break-all;
+
+}
+.description{
+    display: flex;
 }
